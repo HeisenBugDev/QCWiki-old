@@ -38,13 +38,9 @@
           </button>
            <a class="brand" href="index.php"><?php echo($site_name); ?></a>
           <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
             <ul class="nav">
                 <li <?php if($page == "home"){?> class="active" <?php } ?>><a href="index.php">Home</a></li>
                 <li <?php if($page == "about"){?> class="active" <?php } ?>><a href="?page=about">About</a></li>
-                <li <?php if($page == "contact"){?> class="active" <?php } ?>><a href="?page=contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -56,21 +52,19 @@
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li class="active"><a href="#">Machines</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li class="nav-header">Machines</li>
+              <li><a href="?page=qinfuser">Quantum Infuser</a></li>
+              <li><a href="?page=qextractor">Quantum Extractor</a></li>
               <li class="nav-header">Items</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Tools</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="?page=epackets">Energy Packets</a></li>
+              <li><a href="?page=crystals">Crystals</a></li>
+              <li><a href="?page=ctools">Crystal Tools</a></li>
+              <li><a href="?page=gitools">Gamma Infused Tools</a></li>
+              <li><a href="?page=cshard">Crystal Shard</a></li>
+              <li><a href="?page=plutonium">Plutonium</a></li>
+              <li class="nav-header">Blocks</li>
+              <li><a href="?page=decoblocks">Decoration Blocks</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
+    <div class="span9">
